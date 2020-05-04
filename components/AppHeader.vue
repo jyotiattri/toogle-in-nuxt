@@ -40,15 +40,15 @@
 
 <script>
 export default {
-  name: "AppHeader",
-  data() {
+  name: 'AppHeader',
+  data () {
     return {
-      title: "Dimension",
+      title: 'Dimension',
       data:
-        "A fully responsive site template designed by HTML5 UP and released for free under the Creative Commons license."
-    };
+        'A fully responsive site template designed by HTML5 UP and released for free under the Creative Commons license.'
+    }
   }
-};
+}
 </script>
 <style>
 li {

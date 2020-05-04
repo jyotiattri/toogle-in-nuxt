@@ -77,29 +77,28 @@
 </template>
 
 <script>
-import AppHeader from "../components/AppHeader";
+import AppHeader from '../components/AppHeader'
 export default {
   name: 'Homepage',
   components: {
     AppHeader
   },
   methods: {
-  
-  toggleBodySection: {
-    get() {
-      return this.$route.query["toggle_body-section"] || "option-1";
-    },
-    set(newValue) {
-      this.$router.push({
-        path: "/",
-        query: {
-          ...this.queryStrings,
-          ...{ "toggle_body-section": newValue }
-        }
-      })
+    toggleBodySection: {
+      get () {
+        return this.$route.query['toggle_body-section'] || 'option-1'
+      },
+      set (newValue) {
+        this.$router.push({
+          path: '/',
+          query: {
+            ...this.queryStrings,
+            ...{ 'toggle_body-section': newValue }
+          }
+        })
+      }
     }
   }
-}
 }
 </script>
 

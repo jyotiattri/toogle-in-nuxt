@@ -27,7 +27,7 @@ export default {
   /*
   ** Plugins to load before mounting the App
   */
- plugins: ['@/plugins/featureToggleExtend'],
+  plugins: ['@/plugins/featureToggleExtend'],
   /*
   ** Nuxt.js dev-modules
   */
